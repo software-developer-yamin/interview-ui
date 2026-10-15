@@ -91,7 +91,7 @@ async function handleSubmit(event: FormEvent<HTMLFormElement>) {
       saveAuthToken(res.token);
       setCurrentUser(res.user);
       setMessage("Signed in successfully!");
-      router.push("/dashboard");
+      router.push("/prodcuts");
     }
   } catch (err: unknown) {
     setError(
