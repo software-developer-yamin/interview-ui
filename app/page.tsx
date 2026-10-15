@@ -90,9 +90,8 @@ async function handleSubmit(event: FormEvent<HTMLFormElement>) {
       saveAuthToken(res.token);
       setCurrentUser(res.user);
       setMessage("Signed in successfully!");
+      router.push("/dashboard");
     }
-
-    router.push("/dashboard");
   } catch (err: unknown) {
     setError(
       err instanceof Error ? err.message : "Authentication failed"
