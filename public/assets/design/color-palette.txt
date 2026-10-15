@@ -1,0 +1,14 @@
+DATAPULSE COLOR PALETTE
+=======================
+Page background       #020817
+Deep navy surface     #061329
+Elevated surface      #071A33
+Primary blue          #168BFF
+Cyan accent           #00C8FF
+Violet accent         #7B35FF
+Magenta accent        #C02CFF
+Main text             #F5F8FF
+Secondary text        #A9C4E8
+Muted text            #7895BA
+Border                #183A66
+Online/success        #00D7A0
